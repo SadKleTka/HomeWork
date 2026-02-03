@@ -119,11 +119,11 @@ public class PractiseWorkHW {
 
         //Number 14.
         /*
-        List<String> list = new ArrayList<>(
+        List<String> list1 = new ArrayList<>(
                 List.of("Animal", "Know", "Job", "Hello")
         );
         String vowels = "eyuioa";
-        numberFifteen(list, vowels).forEach(System.out::println);
+        numberFifteen(list1, vowels).forEach(System.out::println);
          */
 
         //Number 15.
