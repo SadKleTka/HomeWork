@@ -1,3 +1,5 @@
+package HomeWork4;
+
 import java.util.HashMap;
 import java.util.Map;
 
@@ -26,7 +28,7 @@ class Course {
 
     @Override
     public String toString() {
-        return "Course{name='" + name + "', instructor='" + instructor + "', credits=" + credits + "}";
+        return "HomeWork4.Course{name='" + name + "', instructor='" + instructor + "', credits=" + credits + "}";
     }
 }
 
@@ -38,7 +40,7 @@ record StudySession(Course course, int minutes) {
 
     @Override
     public String toString() {
-        return "StudySession{course='" + course.getName() + "', minutes=" + minutes + "}";
+        return "HomeWork4.StudySession{course='" + course.getName() + "', minutes=" + minutes + "}";
     }
 }
 
@@ -88,7 +90,7 @@ class AssignmentTask {
 
     @Override
     public String toString() {
-        return "AssignmentTask{title='" + title + "', course='" + course.getName()
+        return "HomeWork4.AssignmentTask{title='" + title + "', course='" + course.getName()
                 + "', estHours=" + estimatedHours
                 + ", dueIn=" + daysUntilDue
                 + ", completed=" + completed + "}";
